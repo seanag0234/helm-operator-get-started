@@ -15,4 +15,4 @@ spec:
     ref: master
   values:
     image: seanag/flux-test:2.5.8
-    replicaCount: 3
+    replicaCount: 1
