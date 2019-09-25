@@ -25,6 +25,8 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image }}"
           imagePullPolicy: {{ .Values.imagePullPolicy }}
+          imagePullSecrets:
+            - name: ecr-us-west-2
           command:
             - ./podinfo
             - -port={{ .Values.service.containerPort }}

@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: seanag/flux-test:stg-jneith3d
+    image: 325947624253.dkr.ecr.us-west-2.amazonaws.com/data-platform/hydra-metadata:stg-0.1.4
     replicaCount: 1
     hpa:
       enabled: true
