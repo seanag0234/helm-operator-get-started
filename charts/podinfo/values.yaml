@@ -3,7 +3,7 @@
 replicaCount: 1
 backend: http://backend-podinfo:9898/echo
 
-image: stefanprodan/podinfo:0.4.0
+image: seanag/flux-test:1.0.4
 imagePullPolicy: IfNotPresent
 
 service:
