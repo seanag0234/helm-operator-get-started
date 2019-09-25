@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: seanag/flux-test:dev-0ph2fx9p
+    image: seanag/flux-test:dev-f7xarn7y
     replicaCount: 1
     hpa:
       enabled: false
