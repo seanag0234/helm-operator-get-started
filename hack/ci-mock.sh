@@ -21,6 +21,7 @@ done
 shift $((OPTIND-1))
 
 if [ -z "${version}" ]; then
+    # image="${repository}:${branch}-09n2ow74"
     image="${repository}:${branch}-${commit}"
     version="0.4.0"
 else
